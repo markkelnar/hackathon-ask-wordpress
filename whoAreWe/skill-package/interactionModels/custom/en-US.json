@@ -1,0 +1,55 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "the party",
+      "intents": [
+        {
+          "name": "WhoAreWe",
+          "samples": [
+            "Who are we",
+            "Who's the team",
+            "Whos the team",
+            "Who is the team"
+          ]
+        },
+        {
+          "name": "WhoNext",
+          "samples": [
+            "Whos next",
+            "Who's next",
+            "Who is next"
+          ]
+        },
+        {
+          "name": "WhoElse",
+          "samples": [
+            "Who else"
+          ]
+        },
+        {
+          "name": "AndLast",
+          "samples": [
+            "And last",
+            "And last but not least"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "bye",
+            "exit",
+            "see you later",
+            "until we meet again"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
