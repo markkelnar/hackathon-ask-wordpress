@@ -1,0 +1,129 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "blog reader",
+      "intents": [
+        {
+          "name": "AMAZON.ResumeIntent"
+        },
+        {
+          "name": "AMAZON.PauseIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "bye",
+            "exit",
+            "see you later",
+            "nevermind",
+            "forget it",
+            "go away"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "instructions",
+            "how does this work",
+            "whats happening",
+            "what the hell",
+            "ahhhh"
+          ]
+        },
+        {
+          "name": "GetLatestPost",
+          "samples": [
+            "get marks latest blog post",
+            "get marks latest post",
+            "get marks latest blog posts",
+            "read me marks latest blog post",
+            "give me the latest blog post",
+            "what's my latest blog post",
+            "what is the latest blog post",
+            "what's the latest post",
+            "what is the latest post"
+          ]
+        },
+        {
+          "name": "GetLatestPostsFromFavorites",
+          "samples": [
+            "give me the latest posts from favorites",
+            "get my favorite blogs",
+            "give me my faborite blogs",
+            "get me the latest posts from favorites",
+            "get me the latest posts from favorite blogs",
+            "read me my favorites",
+            "read me my favorite blogs",
+            "get me my favorite blogs",
+            "read my favorite blogs",
+            "read me my favorite blogs latests posts"
+          ]
+        },
+        {
+          "name": "ReadLatestPostByIndex",
+          "slots": [
+            {
+              "name": "Index",
+              "type": "INDEX_OF_INSTALLS"
+            }
+          ],
+          "samples": [
+            "get me the {Index}",
+            "get me the {Index} one",
+            "get the {Index} one",
+            "read me the {Index}",
+            "read the {Index}",
+            "read me the {Index} one",
+            "read the {Index} one",
+            "read the latest post for the {Index}",
+            "read the latest post for the {Index} one"
+          ]
+        },
+        {
+          "name": "ReadPartOfPostIntent"
+        },
+        {
+          "name": "ReadEntirePostIntent"
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "first"
+              }
+            },
+            {
+              "name": {
+                "value": "second"
+              }
+            },
+            {
+              "name": {
+                "value": "third"
+              }
+            },
+            {
+              "name": {
+                "value": "fourth"
+              }
+            }
+          ],
+          "name": "INDEX_OF_INSTALLS"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
