@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "crowd control",
+      "intents": [
+        {
+          "name": "Hello",
+          "samples": [
+            "say hello"
+          ]
+        },
+        {
+          "name": "Spot",
+          "samples": [
+            "its dark in here"
+          ]
+        },
+        {
+          "name": "Brandon"
+        },
+        {
+          "name": "Will"
+        },
+        {
+          "name": "Warning",
+          "samples": [
+            "give them the disclaimer"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "bye",
+            "exit",
+            "see you later",
+            "until we meet again",
+            "later alligator"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        }
+      ]
+    }
+  },
+  "version": "1"
+}
